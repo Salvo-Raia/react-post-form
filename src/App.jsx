@@ -26,7 +26,7 @@ export default function App() {
         <form className='bg-light card'>
           <div className='card-body'>
             <div className='form-group d-flex justify-content-center gap-4'>
-              <div>
+              <div className='author-input'>
               <label className='form-label' htmlFor="author">Author</label>
               <input type="text" 
                      value={formData.author}
@@ -36,7 +36,7 @@ export default function App() {
                      id='author'
                      />
               </div>
-              <div>
+              <div className='title-input'>
               <label className='form-label' htmlFor="title">Title</label>
               <input type="text" 
                      value={formData.title}
@@ -46,10 +46,11 @@ export default function App() {
                      id='title'
                      />
               </div>
-              <div>
-                
-              </div>
             </div>
+              <div className='post-input form-group mt-3'>
+                <label htmlFor="body" className='form-label'>Post</label>
+                <textarea name="body" value={formData.body} id="body" className='form-control' onChange={handleForm} />
+              </div>
           </div>
         </form>
     </div>
