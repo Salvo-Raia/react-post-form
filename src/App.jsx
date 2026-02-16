@@ -25,14 +25,30 @@ export default function App() {
       <h1>Add new post</h1>
         <form className='bg-light card'>
           <div className='card-body'>
-            <div className='form-group'>
-              <label className='form-label' htmlFor="">Author</label>
+            <div className='form-group d-flex justify-content-center gap-4'>
+              <div>
+              <label className='form-label' htmlFor="author">Author</label>
               <input type="text" 
-                    value={formData.author}
-                    onChange={handleForm}
-                    name='author'
-                    className='form-control'
-                    />
+                     value={formData.author}
+                     onChange={handleForm}
+                     name='author'
+                     className='form-control'
+                     id='author'
+                     />
+              </div>
+              <div>
+              <label className='form-label' htmlFor="title">Title</label>
+              <input type="text" 
+                     value={formData.title}
+                     onChange={handleForm}
+                     name='title'
+                     className='form-control'
+                     id='title'
+                     />
+              </div>
+              <div>
+                
+              </div>
             </div>
           </div>
         </form>
