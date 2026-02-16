@@ -56,10 +56,12 @@ export default function App() {
               <div className='post-input form-group mt-3 text-start'>
                 <label htmlFor="body" className='form-label'>Post</label>
                 <textarea name="body" value={formData.body} id="body" className='form-control' onChange={handleForm} />
-                <input type="checkbox" id='public' onChange={handleForm} checked={formData.public}/>
-                <label htmlFor="public">Make the post public</label>
-                <button className='btn btn-primary my-3'>Pubblica Post</button>
               </div>
+              <div className='form-check text-start my-3'>
+                <input type="checkbox" id='public' name='public' className='form-check-input' onChange={handleForm} checked={formData.public}/>
+                <label htmlFor="public" className='form-check-label'>Make the post public</label>
+              </div>
+                <button className='btn btn-primary my-3'>Pubblica Post</button>
           </div>
         </form>
     </div>
