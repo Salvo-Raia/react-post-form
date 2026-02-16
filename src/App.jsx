@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import axios from 'axios';
 import './App.css'
 
+const postEndpoint = "https://67c5b4f3351c081993fb1ab6.mockapi.io/api/posts";
 const initialFormdata = {
   author: "",
   title: "", 
@@ -23,6 +25,12 @@ export default function App() {
   const handleSubmit = (e) => {
     e.preventDefault(); 
     console.table(formData);
+    axios.post(postEndpoint, formData)
+         .then(res => {
+          console.log("Post pubblicato con successo")
+          console.table(res)
+          alert("✅ Post pubblicato con successo")
+         })
     
   }
 
