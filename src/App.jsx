@@ -27,8 +27,7 @@ export default function App() {
     console.table(formData);
     axios.post(postEndpoint, formData)
          .then(res => {
-          console.log("Post pubblicato con successo")
-          console.table(res)
+          console.log("✅ Post pubblicato con successo");
           alert("✅ Post pubblicato con successo")
          })
     
