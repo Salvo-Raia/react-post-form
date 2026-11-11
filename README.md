@@ -2,6 +2,8 @@
 
 # 🎓 Exercise 38/50 - Post Form
 
+A React application featuring a multi-field form to create and submit new blog posts to an external API using HTTP POST requests.
+
 ## 📌 Project Overview
 
 | Property | Details |
