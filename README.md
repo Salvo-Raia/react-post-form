@@ -1,8 +1,8 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 38/50 - Post Form
+# 🎓 Exercise 38/50: Post Form
 
-A React application featuring a multi-field form to create and submit new blog posts to an external API using HTTP POST requests.
+Building a React application featuring a multi-field form to create and submit new blog posts to an external API using HTTP POST requests.
 
 ## 📌 Project Overview
 
@@ -26,7 +26,7 @@ The form must collect the following information:
 | `body` | String | The post content |
 | `public` | Boolean | Whether the post is public (`true`) or a draft (`false`) |
 
-### API Integration
+#### API Integration
 
 Send the form data to the following endpoint using a POST request:
 
@@ -36,12 +36,12 @@ If the request is successful, the API will return the submitted data.
 
 Print the response to the console to verify that all the information has been sent correctly.
 
-### Bonus - Submission Feedback
+### ⭐ Bonus
 
 Add and manage an alert to provide users with feedback when the form is submitted.
 
 ## 🛠️ Technologies
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![JSX](https://img.shields.io/badge/JSX-6A1B9A?style=flat-square&logo=react&logoColor=F7DF1E&labelColor=6A1B9A&color=6A1B9A) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 ## 💡 What I Learned
 
@@ -55,4 +55,4 @@ Add and manage an alert to provide users with feedback when the form is submitte
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
