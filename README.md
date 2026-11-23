@@ -36,6 +36,7 @@ Print the response to the console to verify that all the information has been se
 Add and manage an alert to provide users with feedback when the form is submitted.
 
 ## Technologies
+
 ![JSX](https://img.shields.io/badge/JSX-6A1B9A?style=flat-square&logo=react&logoColor=F7DF1E&labelColor=6A1B9A&color=6A1B9A) 
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) 
