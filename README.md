@@ -8,7 +8,7 @@ Building a React application featuring a multi-field form to create and submit n
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| react-post-form | Post Form | Exercise | React, form, state management & POST requests | 38/50 |
+| react-post-form | Post Form | Exercise | React, form, state management, POST requests | 38/50 |
 
 ## Assignment
 
