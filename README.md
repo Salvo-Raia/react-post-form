@@ -23,7 +23,7 @@ The form must collect the following information.
 | `body` | String | The post content |
 | `public` | Boolean | Whether the post is public (`true`) or a draft (`false`) |
 
-Send the form data to the following endpoint using a POST request:
+Send the form data to the following endpoint using a POST request.
 
 `https://67c5b4f3351c081993fb1ab6.mockapi.io/api/posts`
 
